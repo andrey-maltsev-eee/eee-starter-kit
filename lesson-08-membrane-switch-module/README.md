@@ -24,13 +24,13 @@ The library doesn't dictate fixed pins. Pins `9, 8, 7, 6` and `5, 4, 3, 2` were 
 
 ### Challenges and Fixes:
 
-#### Challenges 1: Counterintuitive Schematic Layout
+#### Challenge 1: Counterintuitive Schematic Layout
 In the circuit schematic diagram, the row and column layout looked inverted or rotated compared to the physical keypad face and the code logic. This is because schematic diagrams prioritize clean wire routing on paper (avoiding overlapping line intersections) rather than representing true physical geometry.
 
 #### Fix 1: 
 Separated the concept of Physical View (how components sit on the table and wire up) from Electrical View (how current flows). In code, we map `rowPins` and `colPins` based strictly on the physical pin order of the ribbon connector plugged into the Arduino.
 
-#### Challenges 2: Understanding the Wire Order 
+#### Challenge 2: Understanding the Wire Order 
 Confusion about why `rowPins` was assigned `{9, 8, 7, 6}` and `colPins` `{5, 4, 3, 2}` instead of starting from pin 2 upwards. Pin 1 of the keypad ribbon connector is physically mapped to Column 4, whereas Pin 8 is mapped to Row 1.
 
 #### Fix 2: matched the physical connection order:
