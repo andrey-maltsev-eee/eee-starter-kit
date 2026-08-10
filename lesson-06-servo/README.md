@@ -10,5 +10,5 @@ Goal: Understand how to control the rotation angle and position of a servo motor
 
 ### Key Takeaways:
 Angle of rotation is dependent on the initial position of the detail (not mathematical quadrants).
-‘myservo.detach()’ command to stop code from complying.
+`myservo.detach()` command to stop code from complying.
 
