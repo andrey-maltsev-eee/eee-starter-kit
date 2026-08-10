@@ -13,7 +13,7 @@ Components Required:
 
 ## Key Takeaways:
 Breadboard is extremely useful for rapid prototyping without soldering.
-Directional components (diodes). Connecting in reverse blocks current and prevents lighting up.
+Connecting in reverse blocks current and prevents lighting up.
 Learned the importance of using a current-limiting resistor in series with the LED to prevent burning it out due to high current.
 Learned how to read the resistance value using the colored bands on the body.
 
