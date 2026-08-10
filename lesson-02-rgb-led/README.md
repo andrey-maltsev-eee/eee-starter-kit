@@ -3,11 +3,16 @@
 Goal: Understand how different colors are made using only three main ones
 
 ### Components Required:
-(1) x Elegoo Uno R3
-(1) x 830 Tie Points Breadboard
-(4) x M-M wires (Male to Male jumper wires)
-(1) x RGB LED
-(3) x 220 ohm resistors
+(1) x Elegoo Uno R3  
+
+(1) x 830 Tie Points Breadboard  
+
+(4) x M-M wires (Male to Male jumper wires)  
+
+(1) x RGB LED  
+
+(3) x 220 ohm resistors  
+
 
 
 ### Key Takeaways:
