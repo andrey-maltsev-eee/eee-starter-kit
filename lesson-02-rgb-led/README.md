@@ -1,21 +1,25 @@
 # Lesson 02: RGB LED
 
-Goal: Understand how different colors are made using only three main ones
+Goal: Understand how to generate a spectrum of different colors using a single RGB LED and primary color mixing.
 
 ### Components Required:
-(1) x Elegoo Uno R3  
+1 x Elegoo Uno R3  
 
-(1) x 830 Tie Points Breadboard  
+1 x 830 Tie-Points Breadboard  
 
-(4) x M-M wires (Male to Male jumper wires)  
+4 x M-M Jumper Wires  
 
-(1) x RGB LED  
+1 x RGB LED (Common Cathode)  
 
-(3) x 220 ohm resistors  
-
-
+3 x 220Ω Resistors
 
 ### Key Takeaways:
-- The longest lead in RGB LED is Cathode (-)
-- Pulse Width Modulation (PWM) helps us to change the amount of power delivered, so it looks like the brightness is changing (while in reality it is just turning on and off many times in a second.
+The longest lead is the Common Cathode (-), which connects to Ground (GND). The other three leads control the Red, Green, and Blue internal LEDs.
 
+By adjusting the intensity of the three primary colors (Red, Green, Blue), we can create almost any color.
+
+PWM rapidly switches the voltage ON and OFF at high frequency. By changing the ratio of "ON" time to "OFF" time (*duty cycle*), we simulate varying brightness levels.
+
+### Challenges & Fixes:
+Issue: Colors looked unbalanced or didn't mix into white correctly.
+Fix: Used separate 220Ω resistors for each color pin to properly limit current according to each internal LED's voltage needs.
