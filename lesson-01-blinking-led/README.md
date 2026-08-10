@@ -1,15 +1,15 @@
-Lesson 01: Blinking LED
+# Lesson 01: Blinking LED
 
 Goal: Understand how to properly connect an LED, read resistor values, and learn the internal structure of a breadboard.
 
 Components Required:
-1 x Elegoo Uno R3
-1 x 5mm Red LED
-1 x 220Ω Resistor
-1 x 1kΩ Resistor
-1 x 10kΩ Resistor
-2 x M-M Jumper Wires
-1 x Breadboard
+- 1 x Elegoo Uno R3
+- 1 x 5mm Red LED
+- 1 x 220Ω Resistor
+- 1 x 1kΩ Resistor
+- 1 x 10kΩ Resistor
+- 2 x M-M Jumper Wires
+- 1 x Breadboard
 
 ## Key Takeaways:
 Breadboard is extremely useful for rapid prototyping without soldering.
