@@ -3,9 +3,12 @@
 Goal: we are about to learn how to use clocks!
 
 ### Components Required:
-(1) x Elegoo Uno R3
-(1) x DS1307 RTC module
-(4) x F-M wires (Female to Male DuPont wires)
+(1) x Elegoo Uno R3  
+
+(1) x DS1307 RTC module  
+
+(4) x F-M wires (Female to Male DuPont wires)  
+
 
 ### Key Takeaways:
 The DS1307 is a low-power real-time clock (RTC) chip that tracks time and date data, communicating with an Arduino Uno via the I2C protocol.
