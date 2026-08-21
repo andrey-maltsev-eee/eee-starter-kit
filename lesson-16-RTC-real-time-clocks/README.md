@@ -1,4 +1,4 @@
-# Lesson 16: Real Time Clock Module
+# Lesson 16: Real-Time Clock Module
 
 Goal: we are about to learn how to use clocks!
 
