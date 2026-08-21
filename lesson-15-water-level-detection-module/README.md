@@ -19,3 +19,6 @@ The Elegoo Uno R3 uses its built-in Analog-to-Digital Converter (ADC) to convert
 Surface tension and residual water droplets trapped between the copper traces can cause the sensor to continue reading a non-zero value even after being pulled out of the water.
 
 The sensor's raw output is non-linear and may max out at a value lower than 1023 (such as 360) due to water resistance.
+
+### Little experiment:
+After using a fresh water from the tap, I wanted to look if physics really works (yep) and put 3 teaspoons of salt in the cup. The readings were higher! Up to 420! Yaaaaay
